@@ -2,10 +2,11 @@
 # Unified backend for ShieldView + RemFlow
 #
 # Deploy options:
-#   1. Docker (recommended): docker build -t security-tools-api . && docker run -p 8000:8000 security-tools-api
-#   2. Render: Connect repo, set Start Command to "uvicorn main:app --host 0.0.0.0 --port $PORT"
-#   3. Fly.io: fly launch
-#   4. Railway: Connect repo, it auto-detects Python
+#   1. Windows Self-Host (Recommended): run start_windows.bat or install as Windows service
+#   2. Docker: docker build -t security-tools-api . && docker run -p 8000:8000 security-tools-api
+#   3. Render: Connect repo, set Start Command to "uvicorn main:app --host 0.0.0.0 --port $PORT"
+#   4. Fly.io: fly launch
+#   5. Railway: Connect repo, it auto-detects Python
 #
 # Environment variables:
 #   PORT          - Server port (default: 8000)
